@@ -1,0 +1,189 @@
+{
+  "request": {
+    "flightId": {
+      "requested": "993372929",
+      "interpreted": 993372929
+    },
+    "extendedOptions": {},
+    "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/993372929"
+  },
+  "appendix": {
+    "airlines": [{
+      "fs": "AA",
+      "iata": "AA",
+      "icao": "AAL",
+      "name": "American Airlines",
+      "phoneNumber": "08457-567-567",
+      "active": true
+    }, {
+      "fs": "QF",
+      "iata": "QF",
+      "icao": "QFA",
+      "name": "Qantas",
+      "phoneNumber": "+61 2 9691 3636",
+      "active": true
+    }, {
+      "fs": "BA",
+      "iata": "BA",
+      "icao": "BAW",
+      "name": "British Airways",
+      "phoneNumber": "1-800-AIRWAYS",
+      "active": true
+    }, {
+      "fs": "GF",
+      "iata": "GF",
+      "icao": "GFA",
+      "name": "Gulf Air",
+      "phoneNumber": "973 17 335 777",
+      "active": true
+    }],
+    "airports": [{
+      "fs": "ABQ",
+      "iata": "ABQ",
+      "icao": "KABQ",
+      "faa": "ABQ",
+      "name": "Albuquerque International Sunport",
+      "street1": "2200 Sunport Blvd. SE",
+      "city": "Albuquerque",
+      "cityCode": "ABQ",
+      "stateCode": "NM",
+      "postalCode": "87106",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Denver",
+      "weatherZone": "NMZ519",
+      "localTime": "2019-03-18T09:56:51.931",
+      "utcOffsetHours": -6.0,
+      "latitude": 35.049625,
+      "longitude": -106.617193,
+      "elevationFeet": 5355,
+      "classification": 2,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ABQ?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ABQ?codeType=fs"
+    }, {
+      "fs": "DFW",
+      "iata": "DFW",
+      "icao": "KDFW",
+      "faa": "DFW",
+      "name": "Dallas/Fort Worth International Airport",
+      "street1": "International Pkwy",
+      "city": "Dallas",
+      "cityCode": "DFW",
+      "stateCode": "TX",
+      "postalCode": "75261",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Chicago",
+      "weatherZone": "TXZ119",
+      "localTime": "2019-03-18T10:56:51.931",
+      "utcOffsetHours": -5.0,
+      "latitude": 32.897462,
+      "longitude": -97.036128,
+      "elevationFeet": 603,
+      "classification": 1,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DFW?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DFW?codeType=fs"
+    }],
+    "equipments": [{
+      "iata": "738",
+      "name": "Boeing 737-800 Passenger",
+      "turboProp": false,
+      "jet": true,
+      "widebody": false,
+      "regional": false
+    }]
+  },
+  "flightStatus": {
+    "flightId": 993372929,
+    "carrierFsCode": "AA",
+    "flightNumber": "2464",
+    "departureAirportFsCode": "ABQ",
+    "arrivalAirportFsCode": "DFW",
+    "departureDate": {
+      "dateLocal": "2019-03-18T16:34:00.000",
+      "dateUtc": "2019-03-18T22:34:00.000Z"
+    },
+    "arrivalDate": {
+      "dateLocal": "2019-03-18T19:24:00.000",
+      "dateUtc": "2019-03-19T00:24:00.000Z"
+    },
+    "status": "S",
+    "schedule": {
+      "flightType": "J",
+      "serviceClasses": "RJY",
+      "restrictions": "",
+      "uplines": [{
+        "fsCode": "DFW",
+        "flightId": 993372906
+      }]
+    },
+    "operationalTimes": {
+      "publishedDeparture": {
+        "dateLocal": "2019-03-18T16:34:00.000",
+        "dateUtc": "2019-03-18T22:34:00.000Z"
+      },
+      "publishedArrival": {
+        "dateLocal": "2019-03-18T19:24:00.000",
+        "dateUtc": "2019-03-19T00:24:00.000Z"
+      },
+      "scheduledGateDeparture": {
+        "dateLocal": "2019-03-18T16:34:00.000",
+        "dateUtc": "2019-03-18T22:34:00.000Z"
+      },
+      "estimatedGateDeparture": {
+        "dateLocal": "2019-03-18T16:34:00.000",
+        "dateUtc": "2019-03-18T22:34:00.000Z"
+      },
+      "flightPlanPlannedDeparture": {
+        "dateLocal": "2019-03-18T16:49:00.000",
+        "dateUtc": "2019-03-18T22:49:00.000Z"
+      },
+      "scheduledGateArrival": {
+        "dateLocal": "2019-03-18T19:24:00.000",
+        "dateUtc": "2019-03-19T00:24:00.000Z"
+      },
+      "estimatedGateArrival": {
+        "dateLocal": "2019-03-18T19:24:00.000",
+        "dateUtc": "2019-03-19T00:24:00.000Z"
+      },
+      "flightPlanPlannedArrival": {
+        "dateLocal": "2019-03-18T19:17:00.000",
+        "dateUtc": "2019-03-19T00:17:00.000Z"
+      }
+    },
+    "codeshares": [{
+      "fsCode": "BA",
+      "flightNumber": "1900",
+      "relationship": "L"
+    }, {
+      "fsCode": "GF",
+      "flightNumber": "6590",
+      "relationship": "L"
+    }, {
+      "fsCode": "QF",
+      "flightNumber": "4406",
+      "relationship": "L"
+    }],
+    "flightDurations": {
+      "scheduledBlockMinutes": 110,
+      "scheduledAirMinutes": 88,
+      "scheduledTaxiOutMinutes": 15,
+      "scheduledTaxiInMinutes": 7
+    },
+    "airportResources": {
+      "departureGate": "B1",
+      "arrivalTerminal": "A",
+      "arrivalGate": "11",
+      "baggage": "C12"
+    },
+    "flightEquipment": {
+      "scheduledEquipmentIataCode": "738",
+      "actualEquipmentIataCode": "738",
+      "tailNumber": "N898NN"
+    }
+  }
+}

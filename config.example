@@ -1,0 +1,10 @@
+{
+  "airportTracked": # 3-letter aiport code (iata) to track an airport
+  "appId": # flightstats.com application id (you need to sign up for this)
+  "appKey": # flightstats.com application key (you need to sign up for this)
+  "casthostname": # cast-web-api ip port to host on
+  "castport": #cast-web-api listening port
+  "database": # mongo DB database connection string
+  "googledevice": #id of your google home device
+  "webserviceport": #port for your web application to listen on
+}

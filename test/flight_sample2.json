@@ -1,0 +1,168 @@
+{
+  "request": {
+    "flightId": {
+      "requested": "993376961",
+      "interpreted": 993376961
+    },
+    "extendedOptions": {},
+    "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/993376961"
+  },
+  "appendix": {
+    "airlines": [{
+      "fs": "AA",
+      "iata": "AA",
+      "icao": "AAL",
+      "name": "American Airlines",
+      "phoneNumber": "08457-567-567",
+      "active": true
+    }, {
+      "fs": "YV",
+      "iata": "YV",
+      "icao": "ASH",
+      "name": "Mesa Airlines",
+      "active": true
+    }, {
+      "fs": "BA",
+      "iata": "BA",
+      "icao": "BAW",
+      "name": "British Airways",
+      "phoneNumber": "1-800-AIRWAYS",
+      "active": true
+    }],
+    "airports": [{
+      "fs": "ABQ",
+      "iata": "ABQ",
+      "icao": "KABQ",
+      "faa": "ABQ",
+      "name": "Albuquerque International Sunport",
+      "street1": "2200 Sunport Blvd. SE",
+      "city": "Albuquerque",
+      "cityCode": "ABQ",
+      "stateCode": "NM",
+      "postalCode": "87106",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Denver",
+      "weatherZone": "NMZ519",
+      "localTime": "2019-03-18T09:57:15.796",
+      "utcOffsetHours": -6.0,
+      "latitude": 35.049625,
+      "longitude": -106.617193,
+      "elevationFeet": 5355,
+      "classification": 2,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ABQ?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ABQ?codeType=fs"
+    }, {
+      "fs": "DFW",
+      "iata": "DFW",
+      "icao": "KDFW",
+      "faa": "DFW",
+      "name": "Dallas/Fort Worth International Airport",
+      "street1": "International Pkwy",
+      "city": "Dallas",
+      "cityCode": "DFW",
+      "stateCode": "TX",
+      "postalCode": "75261",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Chicago",
+      "weatherZone": "TXZ119",
+      "localTime": "2019-03-18T10:57:15.796",
+      "utcOffsetHours": -5.0,
+      "latitude": 32.897462,
+      "longitude": -97.036128,
+      "elevationFeet": 603,
+      "classification": 1,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DFW?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DFW?codeType=fs"
+    }],
+    "equipments": [{
+      "iata": "CR9",
+      "name": "Canadair (Bombardier) Regional Jet 900 and Challenger 890",
+      "turboProp": false,
+      "jet": true,
+      "widebody": false,
+      "regional": true
+    }]
+  },
+  "flightStatus": {
+    "flightId": 993376961,
+    "carrierFsCode": "YV",
+    "flightNumber": "5858",
+    "departureAirportFsCode": "ABQ",
+    "arrivalAirportFsCode": "DFW",
+    "departureDate": {
+      "dateLocal": "2019-03-18T18:35:00.000",
+      "dateUtc": "2019-03-19T00:35:00.000Z"
+    },
+    "arrivalDate": {
+      "dateLocal": "2019-03-18T21:19:00.000",
+      "dateUtc": "2019-03-19T02:19:00.000Z"
+    },
+    "status": "S",
+    "schedule": {
+      "flightType": "J",
+      "serviceClasses": "RJY",
+      "restrictions": "",
+      "uplines": [{
+        "fsCode": "DFW",
+        "flightId": 993376953
+      }]
+    },
+    "operationalTimes": {
+      "publishedDeparture": {
+        "dateLocal": "2019-03-18T18:35:00.000",
+        "dateUtc": "2019-03-19T00:35:00.000Z"
+      },
+      "publishedArrival": {
+        "dateLocal": "2019-03-18T21:19:00.000",
+        "dateUtc": "2019-03-19T02:19:00.000Z"
+      },
+      "scheduledGateDeparture": {
+        "dateLocal": "2019-03-18T18:35:00.000",
+        "dateUtc": "2019-03-19T00:35:00.000Z"
+      },
+      "flightPlanPlannedDeparture": {
+        "dateLocal": "2019-03-18T18:51:00.000",
+        "dateUtc": "2019-03-19T00:51:00.000Z"
+      },
+      "scheduledGateArrival": {
+        "dateLocal": "2019-03-18T21:19:00.000",
+        "dateUtc": "2019-03-19T02:19:00.000Z"
+      },
+      "flightPlanPlannedArrival": {
+        "dateLocal": "2019-03-18T21:05:00.000",
+        "dateUtc": "2019-03-19T02:05:00.000Z"
+      }
+    },
+    "codeshares": [{
+      "fsCode": "BA",
+      "flightNumber": "6520",
+      "relationship": "L"
+    }, {
+      "fsCode": "AA",
+      "flightNumber": "5858",
+      "relationship": "S"
+    }],
+    "flightDurations": {
+      "scheduledBlockMinutes": 104,
+      "scheduledAirMinutes": 74,
+      "scheduledTaxiOutMinutes": 16,
+      "scheduledTaxiInMinutes": 14
+    },
+    "airportResources": {
+      "departureGate": "B1",
+      "arrivalTerminal": "B",
+      "arrivalGate": "27",
+      "baggage": "B30"
+    },
+    "flightEquipment": {
+      "scheduledEquipmentIataCode": "CR9",
+      "tailNumber": "N242LR"
+    }
+  }
+}

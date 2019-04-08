@@ -1,0 +1,189 @@
+{
+  "request": {
+    "flightId": {
+      "requested": "993374099",
+      "interpreted": 993374099
+    },
+    "extendedOptions": {},
+    "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/993374099"
+  },
+  "appendix": {
+    "airlines": [{
+      "fs": "AA",
+      "iata": "AA",
+      "icao": "AAL",
+      "name": "American Airlines",
+      "phoneNumber": "08457-567-567",
+      "active": true
+    }, {
+      "fs": "MQ",
+      "iata": "MQ",
+      "icao": "ENY",
+      "name": "Envoy Air",
+      "active": true
+    }, {
+      "fs": "AS",
+      "iata": "AS",
+      "icao": "ASA",
+      "name": "Alaska Airlines",
+      "phoneNumber": "1-800-252-7522",
+      "active": true
+    }, {
+      "fs": "GF",
+      "iata": "GF",
+      "icao": "GFA",
+      "name": "Gulf Air",
+      "phoneNumber": "973 17 335 777",
+      "active": true
+    }],
+    "airports": [{
+      "fs": "ACT",
+      "iata": "ACT",
+      "icao": "KACT",
+      "faa": "ACT",
+      "name": "Waco Municipal Airport",
+      "street1": "Route 10",
+      "street2": "",
+      "city": "Waco",
+      "cityCode": "ACT",
+      "stateCode": "TX",
+      "postalCode": "76708",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Chicago",
+      "weatherZone": "TXZ159",
+      "localTime": "2019-03-18T10:57:42.859",
+      "utcOffsetHours": -5.0,
+      "latitude": 31.609132,
+      "longitude": -97.223217,
+      "elevationFeet": 516,
+      "classification": 4,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ACT?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ACT?codeType=fs"
+    }, {
+      "fs": "DFW",
+      "iata": "DFW",
+      "icao": "KDFW",
+      "faa": "DFW",
+      "name": "Dallas/Fort Worth International Airport",
+      "street1": "International Pkwy",
+      "city": "Dallas",
+      "cityCode": "DFW",
+      "stateCode": "TX",
+      "postalCode": "75261",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Chicago",
+      "weatherZone": "TXZ119",
+      "localTime": "2019-03-18T10:57:42.859",
+      "utcOffsetHours": -5.0,
+      "latitude": 32.897462,
+      "longitude": -97.036128,
+      "elevationFeet": 603,
+      "classification": 1,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DFW?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DFW?codeType=fs"
+    }],
+    "equipments": [{
+      "iata": "ER4",
+      "name": "Embraer RJ145",
+      "turboProp": false,
+      "jet": true,
+      "widebody": false,
+      "regional": true
+    }]
+  },
+  "flightStatus": {
+    "flightId": 993374099,
+    "carrierFsCode": "MQ",
+    "flightNumber": "3437",
+    "departureAirportFsCode": "ACT",
+    "arrivalAirportFsCode": "DFW",
+    "departureDate": {
+      "dateLocal": "2019-03-18T18:41:00.000",
+      "dateUtc": "2019-03-18T23:41:00.000Z"
+    },
+    "arrivalDate": {
+      "dateLocal": "2019-03-18T19:34:00.000",
+      "dateUtc": "2019-03-19T00:34:00.000Z"
+    },
+    "status": "S",
+    "schedule": {
+      "flightType": "J",
+      "serviceClasses": "Y",
+      "restrictions": "",
+      "uplines": [{
+        "fsCode": "DFW",
+        "flightId": 993374011
+      }]
+    },
+    "operationalTimes": {
+      "publishedDeparture": {
+        "dateLocal": "2019-03-18T18:41:00.000",
+        "dateUtc": "2019-03-18T23:41:00.000Z"
+      },
+      "publishedArrival": {
+        "dateLocal": "2019-03-18T19:34:00.000",
+        "dateUtc": "2019-03-19T00:34:00.000Z"
+      },
+      "scheduledGateDeparture": {
+        "dateLocal": "2019-03-18T18:41:00.000",
+        "dateUtc": "2019-03-18T23:41:00.000Z"
+      },
+      "estimatedGateDeparture": {
+        "dateLocal": "2019-03-18T18:41:00.000",
+        "dateUtc": "2019-03-18T23:41:00.000Z"
+      },
+      "flightPlanPlannedDeparture": {
+        "dateLocal": "2019-03-18T18:56:00.000",
+        "dateUtc": "2019-03-18T23:56:00.000Z"
+      },
+      "scheduledGateArrival": {
+        "dateLocal": "2019-03-18T19:34:00.000",
+        "dateUtc": "2019-03-19T00:34:00.000Z"
+      },
+      "estimatedGateArrival": {
+        "dateLocal": "2019-03-18T19:34:00.000",
+        "dateUtc": "2019-03-19T00:34:00.000Z"
+      },
+      "flightPlanPlannedArrival": {
+        "dateLocal": "2019-03-18T19:21:00.000",
+        "dateUtc": "2019-03-19T00:21:00.000Z"
+      }
+    },
+    "codeshares": [{
+      "fsCode": "AS",
+      "flightNumber": "4218",
+      "relationship": "L"
+    }, {
+      "fsCode": "GF",
+      "flightNumber": "4214",
+      "relationship": "L"
+    }, {
+      "fsCode": "AA",
+      "flightNumber": "3437",
+      "relationship": "S"
+    }],
+    "flightDurations": {
+      "scheduledBlockMinutes": 53,
+      "scheduledAirMinutes": 25,
+      "scheduledTaxiOutMinutes": 15,
+      "scheduledTaxiInMinutes": 13
+    },
+    "airportResources": {
+      "departureGate": "1",
+      "arrivalTerminal": "B",
+      "arrivalGate": "33",
+      "baggage": "B30"
+    },
+    "flightEquipment": {
+      "scheduledEquipmentIataCode": "ER4",
+      "actualEquipmentIataCode": "ER4",
+      "tailNumber": "N673AE"
+    }
+  }
+}

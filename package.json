@@ -1,0 +1,42 @@
+{
+  "name": "flight.tts",
+  "version": "1.0.0",
+  "description": "Flight tracking tool that sends broadcasts to a smart device",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Phillip Knezevich",
+  "license": "ISC",
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.2",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link-http": "^1.5.14",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "deep-diff": "^1.0.2",
+    "diff": "^4.0.1",
+    "enum": "^2.5.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "graphql": "^14.2.0",
+    "graphql-tag": "^2.10.1",
+    "http": "0.0.0",
+    "i": "^0.3.6",
+    "json-query": "^2.2.2",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.14",
+    "node-rest-client": "^3.1.0",
+    "npm": "^6.8.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "supertest": "^3.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.0"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "request": {
+    "flightId": {
+      "requested": "993374395",
+      "interpreted": 993374395
+    },
+    "extendedOptions": {},
+    "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/993374395"
+  },
+  "appendix": {
+    "airlines": [{
+      "fs": "AA",
+      "iata": "AA",
+      "icao": "AAL",
+      "name": "American Airlines",
+      "phoneNumber": "08457-567-567",
+      "active": true
+    }, {
+      "fs": "MQ",
+      "iata": "MQ",
+      "icao": "ENY",
+      "name": "Envoy Air",
+      "active": true
+    }, {
+      "fs": "AS",
+      "iata": "AS",
+      "icao": "ASA",
+      "name": "Alaska Airlines",
+      "phoneNumber": "1-800-252-7522",
+      "active": true
+    }, {
+      "fs": "BA",
+      "iata": "BA",
+      "icao": "BAW",
+      "name": "British Airways",
+      "phoneNumber": "1-800-AIRWAYS",
+      "active": true
+    }],
+    "airports": [{
+      "fs": "DFW",
+      "iata": "DFW",
+      "icao": "KDFW",
+      "faa": "DFW",
+      "name": "Dallas/Fort Worth International Airport",
+      "street1": "International Pkwy",
+      "city": "Dallas",
+      "cityCode": "DFW",
+      "stateCode": "TX",
+      "postalCode": "75261",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Chicago",
+      "weatherZone": "TXZ119",
+      "localTime": "2019-03-18T10:58:06.989",
+      "utcOffsetHours": -5.0,
+      "latitude": 32.897462,
+      "longitude": -97.036128,
+      "elevationFeet": 603,
+      "classification": 1,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DFW?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DFW?codeType=fs"
+    }, {
+      "fs": "AMA",
+      "iata": "AMA",
+      "icao": "KAMA",
+      "faa": "AMA",
+      "name": "Rick Husband Amarillo International Airport",
+      "street1": "10801 Airport Boulevard",
+      "city": "Amarillo",
+      "cityCode": "AMA",
+      "stateCode": "TX",
+      "postalCode": "79111",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "timeZoneRegionName": "America/Chicago",
+      "weatherZone": "TXZ012",
+      "localTime": "2019-03-18T10:58:06.989",
+      "utcOffsetHours": -5.0,
+      "latitude": 35.218274,
+      "longitude": -101.705134,
+      "elevationFeet": 3605,
+      "classification": 3,
+      "active": true,
+      "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AMA?codeType=fs",
+      "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AMA?codeType=fs"
+    }],
+    "equipments": [{
+      "iata": "E75",
+      "name": "Embraer 175",
+      "turboProp": false,
+      "jet": true,
+      "widebody": false,
+      "regional": true
+    }]
+  },
+  "flightStatus": {
+    "flightId": 993374395,
+    "carrierFsCode": "MQ",
+    "flightNumber": "3705",
+    "departureAirportFsCode": "AMA",
+    "arrivalAirportFsCode": "DFW",
+    "departureDate": {
+      "dateLocal": "2019-03-18T18:13:00.000",
+      "dateUtc": "2019-03-18T23:13:00.000Z"
+    },
+    "arrivalDate": {
+      "dateLocal": "2019-03-18T21:32:00.000",
+      "dateUtc": "2019-03-19T00:32:00.000Z"
+    },
+    "status": "S",
+    "schedule": {
+      "flightType": "J",
+      "serviceClasses": "RJY",
+      "restrictions": "",
+      "uplines": [{
+        "fsCode": "DFW",
+        "flightId": 993374350
+      }]
+    },
+    "operationalTimes": {
+      "publishedDeparture": {
+        "dateLocal": "2019-03-18T18:13:00.000",
+        "dateUtc": "2019-03-18T23:13:00.000Z"
+      },
+      "publishedArrival": {
+        "dateLocal": "2019-03-18T19:32:00.000",
+        "dateUtc": "2019-03-19T00:32:00.000Z"
+      },
+      "scheduledGateDeparture": {
+        "dateLocal": "2019-03-18T18:13:00.000",
+        "dateUtc": "2019-03-18T23:13:00.000Z"
+      },
+      "estimatedGateDeparture": {
+        "dateLocal": "2019-03-18T18:13:00.000",
+        "dateUtc": "2019-03-18T23:13:00.000Z"
+      },
+      "flightPlanPlannedDeparture": {
+        "dateLocal": "2019-03-18T18:27:00.000",
+        "dateUtc": "2019-03-18T23:27:00.000Z"
+      },
+      "scheduledGateArrival": {
+        "dateLocal": "2019-03-18T19:32:00.000",
+        "dateUtc": "2019-03-19T00:32:00.000Z"
+      },
+      "estimatedGateArrival": {
+        "dateLocal": "2019-03-18T19:32:00.000",
+        "dateUtc": "2019-03-19T00:32:00.000Z"
+      },
+      "flightPlanPlannedArrival": {
+        "dateLocal": "2019-03-18T19:19:00.000",
+        "dateUtc": "2019-03-19T00:19:00.000Z"
+      }
+    },
+    "codeshares": [{
+      "fsCode": "AS",
+      "flightNumber": "4732",
+      "relationship": "L"
+    }, {
+      "fsCode": "BA",
+      "flightNumber": "6572",
+      "relationship": "L"
+    }, {
+      "fsCode": "AA",
+      "flightNumber": "3705",
+      "relationship": "S"
+    }],
+    "flightDurations": {
+      "scheduledBlockMinutes": 79,
+      "scheduledAirMinutes": 52,
+      "scheduledTaxiOutMinutes": 14,
+      "scheduledTaxiInMinutes": 13
+    },
+    "airportResources": {
+      "departureGate": "2",
+      "arrivalTerminal": "B",
+      "arrivalGate": "7",
+      "baggage": "B5"
+    },
+    "flightEquipment": {
+      "scheduledEquipmentIataCode": "E75",
+      "tailNumber": "N260NN"
+    }
+  }
+}
